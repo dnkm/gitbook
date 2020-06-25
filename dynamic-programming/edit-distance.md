@@ -26,12 +26,12 @@ Find the minimum number of edits so that x == y.
 **Recursively thinking,** the distance between "LOVE" and "MOVIE" is either
 
 * distance\("LOVE", "MOVI"\) + 1 OR
-* distance\("LOV", "MOVIE"\) +   1OR
-* distance\("LOV", "MOVI"\) + 1
+* distance\("LOV", "MOVIE"\) +  1 OR
+* distance\("LOV", "MOVI"\) + \(**1 OR 0\)**
 
 For example, if distance\("LOVE", "MOVI"\) is 2 — which it is — then the distance\("LOVE", "MOVIE"\) is 3, since we only need to _insert_ once. We simply do this for each of the 3 operations.
 
-Now instead of saying `dist("LOVE", "MOVI")`, let's just say `dist(3, 3)`where parameters are the last index of the prefix. Then we can formulate:
+Now instead of saying `dist("LOVE", "MOVIE")`, let's just say `dist(3, 4)`where parameters are the last index of the prefix. Then we can formulate:
 
 ```cpp
 dist(a, b) = min(

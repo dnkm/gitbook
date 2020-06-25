@@ -13,16 +13,7 @@ Again, the solution can be divised by solving the grid row by row.
 Let's think of a possible solution for a 4\*7 grid:
 
 {% tabs %}
-{% tab title="Plain Text" %}
-```text
-1 - - 1 - - 1
-1 - - 1 1 1 1
-- - - - 1 1 1
-- - - - - - 1
-```
-{% endtab %}
-
-{% tab title="4 tiles" %}
+{% tab title="" %}
 ```
 1 3 4 1 3 4 1
 2 3 4 2 1 1 2
