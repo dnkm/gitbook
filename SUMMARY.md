@@ -5,8 +5,5 @@
 ## Dynamic Programming
 
 * [Edit Distance](dynamic-programming/edit-distance.md)
-
----
-
-* [Counting Tiles](counting-tiles.md)
+* [Counting Tiles](dynamic-programming/counting-tiles.md)
 
